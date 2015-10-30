@@ -355,8 +355,8 @@ effect
     $body.addClass('is-star');
 
     function callCanvas (canvas) {
-      var screenpointSplitt = 12000
-      var movingSpeed = 0.2
+      var screenpointSplitt = 12000;
+      var movingSpeed = 0.2;
       var viewportWidth = $(window).width();
       var viewportHeight = $(window).height();
       var nbCalculated = Math.round(viewportHeight*viewportWidth/screenpointSplitt);
@@ -705,7 +705,7 @@ background control
 
   function fn_slider() {
     var $volume = $('#volume');
-    
+
     $('#video').remove();
     $body.addClass('slider-bg');
     for (var i = 1; i <= _imgAmount; i++) {
