@@ -18,13 +18,13 @@ var _darkFormOverlayColor = 'rgba(0, 0, 0, 0.8)'; // [rgba format] - form overla
 /*==============================================================================
 site loader
 ==============================================================================*/
-var _siteLoaderDuration = 1250; // duration
-var _siteLoaderDelay = 500; // delay
+var _siteLoaderDuration = 250; // duration
+var _siteLoaderDelay = 250; // delay
 
 /*==============================================================================
 border - border force diable on mobile
 ==============================================================================*/
-var _border = true; // [true, false] - border
+var _border = false; // [true, false] - border
 
 /*==============================================================================
 text animation
@@ -41,7 +41,7 @@ var _countdownTimezone = '-6'; // timezone
 /*=================================================
 background style
 =================================================*/
-var _bgStyle = 3; // 1 = image, 2 = slideshow, 3 = html5 video, 4 = youtube video
+var _bgStyle = 2; // 1 = image, 2 = slideshow, 3 = html5 video, 4 = youtube video
 
 /*=================================================
 _bgStyle = 1
@@ -59,7 +59,7 @@ var _kenburn = 1; // 1 = kenburn effect slideshow, 2 = normal slideshow
 _bgStyle = 3
  - html5 video
 =================================================*/
-var _videoMute = true; // mute on start
+var _videoMute = false; // mute on start
 var _removeVolume = true; // remove volume icon, if _videoMute = false will still have volume
 
 /*=================================================

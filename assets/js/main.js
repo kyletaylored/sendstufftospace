@@ -704,10 +704,22 @@ background control
   }
 
   function fn_slider() {
+    var $volume = $('#volume');
+    
     $('#video').remove();
     $body.addClass('slider-bg');
     for (var i = 1; i <= _imgAmount; i++) {
       $('#img').append('<img src="assets/img/bg/slideshow-' + (i < 10 ? '0' + i : i) + '.jpg">');
+    }
+
+    if (_removeVolume) {
+      $volume.remove();
+    }
+    if (_videoMute) {
+      $body.addClass('volume-off');
+    } else {
+      fn_volumeOn();
+      $body.addClass('volume-on');
     }
 
     $(window).on('load', function() {
@@ -748,7 +760,7 @@ background control
       } else {
         fn_volumeOn();
         $body.addClass('volume-on');
-      }     
+      }
       $volume.on('click', function() {
         var video = document.getElementById('video-bg');
         $body.toggleClass('volume-off volume-on', function() {
@@ -791,7 +803,7 @@ video background
       } else {
         fn_volumeOn();
         $body.addClass('volume-on');
-      }     
+      }
       $volume.on('click', function() {
         var video = document.getElementById('video-bg');
         $body.toggleClass('volume-off volume-on', function() {
