@@ -1,3 +1,29 @@
 /*=================================================
  * place custom style at this file bottom
-=================================================*/
+ =================================================*/
+
+ .shirt {
+ 	background-image: url(../img/kubos-shirt-1-blue.png);
+ 	background-position: 50% 15px;
+ 	background-size: cover;
+ 	min-height: 500px;
+ 	-webkit-transition: background 0.5s linear;
+ 	-o-transition: background 0.5s linear;
+ 	-moz-transition: background 0.5s linear;
+ 	transition: background 0.5s linear;
+ 	background-repeat: no-repeat;
+ }
+
+ .btn {
+ 	color: white;
+ 	font-size:22px;
+ 	padding: 10px 14px;
+ 	border-radius: 50px;
+ 	background-color: transparent;
+ 	border: 3px solid white;
+ 	text-transform: uppercase;
+ }
+ .btn:hover {
+ 	color: white;
+ 	background-color: #337ab7;
+ }

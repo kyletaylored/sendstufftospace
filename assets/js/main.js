@@ -50,7 +50,7 @@ site loader
     $('.char, .col-countdown, .section-divider').css('opacity', 0);
     $('.word').css('display', 'inline-block');
 
-    var delay = _siteLoaderDelay + _siteLoaderDuration - 400
+    var delay = _siteLoaderDelay + _siteLoaderDuration - 400;
     var easing = [0.710, 0.100, 0.3, 1.000];
     var titleCount = $('.section-title .char').length;
     var subtitleCount = $('.section-subtitle .char').length;
@@ -159,6 +159,7 @@ site loader
         delay: delay
       });
     });
+
   }
 
 /*==============================================================================
