@@ -551,17 +551,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/assets\/img\/kubos-og.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 377704,
-		"inputAbbreviatedPath": "\/assets\/img\/kubos-og.png",
-		"outputAbbreviatedPath": "\/assets\/img\/kubos-og.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/assets\/img\/kubos-shirt-1-blue.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -627,6 +616,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/img\/og.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 377688,
+		"inputAbbreviatedPath": "\/assets\/img\/og.png",
+		"outputAbbreviatedPath": "\/assets\/img\/og.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/vendor\/ytplayer\/raster.png": {
 		"fileType": 32768,
