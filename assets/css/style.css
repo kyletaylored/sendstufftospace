@@ -142,7 +142,7 @@ body {
   letter-spacing: 0.5px;
   padding-left: 0.5px;
   line-height: 1.75;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Ubuntu Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1,
@@ -832,7 +832,7 @@ canvas {
 ======================================*/
 .section-title {
   text-align: center;
-  font-size: 40px;
+  font-size: 36px;
 }
 @media screen and (min-width: 480px) {
   .section-title {
