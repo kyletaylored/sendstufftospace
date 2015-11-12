@@ -34,3 +34,16 @@
  	color: white;
  	background-color: #337ab7;
  }
+
+ .hero-start-link {
+ 	line-height: 1.25;
+ 	text-align: center;
+ 	position: relative;
+ 	padding: 0;
+ }
+
+ .hero-start-link i {
+ 	font-size: 38px !important;
+ 	position: absolute;
+ 	left: 10px;
+ }

@@ -907,6 +907,15 @@ document on ready
     fn_bgStyle();
     fn_effect();
 
+    // Show scroll to.
+    $('#headline')
+    .on('appear', function(event, $all_appeared_elements) {
+      $("hero-start-link").fadeOut();
+    })
+    .on('disappear', function(event, $all_disappeared_elements) {
+      $("hero-start-link").fadeIn();
+    });
+
   });
 
 /*=================================================
